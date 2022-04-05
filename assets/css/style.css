@@ -391,3 +391,31 @@ li{
     letter-spacing: 2px;
     color: #1D1F2E;
 }
+/* updates */
+.updates{
+    background: url("../img/updates_bg.jpg") no-repeat center center;
+    height: 327px;
+    padding: 79.96px 0 85.04px 0;
+}
+.updates_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.updates_pretitle{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.updates_text{
+    font-size: 12px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.updates_title{
+    font-size: 36px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
