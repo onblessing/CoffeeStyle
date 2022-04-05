@@ -159,9 +159,14 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 .products_texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    margin-bottom: 100px;
 }
 .products_title{
     font-size: 28px;
@@ -176,4 +181,213 @@ li{
     font-size: 16px;
     color: #1D1F2EB2;
     line-height: 28px;
+    margin-bottom: 21px;
+}
+.products_full{
+    font-size: 15px;
+    color: #A25F4B;
+    border-bottom: 2px solid #A25F4B33;
+    padding-bottom: 5px;
+    transition: 0.3s;
+}
+.products_full:hover{
+    color: #000000;
+}
+.featured_mugs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.featured_title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.line{
+    width: 30px;
+    height: 1px;
+    background-color: #ECECED;
+    margin: 0 15px;
+}
+.featured_text{
+    font-size: 12px;
+    color: #1D1F2E;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.featured_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.featured_block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: 20px;
+}
+.featured_block:last-child{
+    margin-right: 0px;
+}
+.featured_block img{
+    margin-bottom: 35px;
+}
+.featured_block_name{
+    font-size: 20px;
+    color: #1D1F2E;
+    margin-bottom: 10px;
+}
+.featured_block_price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #1D1F2EB2;
+}
+.featured_block_price_now{
+    font-size: 19px;
+    color: #A25F4B;
+    margin-right: 10px;
+}
+.featured_block_price_line{
+    font-size: 16px;
+    color: #1D1F2E66;
+    text-decoration-line: line-through;
+}
+.more_products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.more_products_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.products_blocks_first{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.products_blocks_second{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.products_blocks_third{
+    display: flex;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.product_block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: 17px;
+}
+.product_block img{
+    margin-bottom: 35px;
+}
+.product_block:last-child{
+    margin-right: 0px;
+}
+.products_premium{
+    display: flex;
+}
+.premium_pic_con{
+    display: flex;
+    justify-content: space-between;
+}
+.premium_pic_con img{
+    margin-right: 20px;
+}
+.premium_twopic{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 60px;
+}
+.premium_pretitle{
+    font-size: 12px;
+    color: #1D1F2E;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 14px;
+}
+.premium_title{
+    font-size: 36px;
+    color: #1D1F2E;
+    margin-bottom: 15px;
+    line-height: 50px;
+}
+.premium_subtitle{
+    font-size: 16px;
+    color: #1D1F2EB2;
+    line-height: 28px;
+    margin-bottom: 29.5px;
+}
+.premium_btn{
+    width: 173px;
+    height: 35px;
+    background-color: #1D1F2E;
+    border: none;
+    cursor: pointer;
+}
+.premium_btn a{
+    font-size: 12px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+/* pic */
+.section_pic{
+    background: url("../img/section_bg.jpg") no-repeat center center / cover;
+    height: 340px;
+}
+/* stories */
+.stories{
+    padding: 100px 0 141px 0;
+}
+.stories_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.stories_blocks{
+    display: flex;
+}
+.stories_block img{
+    margin-bottom: 29.19px;
+}
+.stories_block{
+    margin-right: 20px;
+}
+.stories_block:last-child{
+    margin-right: 0px;
+}
+.stories_block_title{
+    font-size: 20px;
+    font-weight: 400;
+    color: #1D1F2E;
+    line-height: 32px;
+    margin-bottom: 10px;
+}
+.stories_block_subtitle{
+    font-size: 16px;
+    color: #1D1F2EB2;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+.stories_block_date{
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #1D1F2E;
 }
