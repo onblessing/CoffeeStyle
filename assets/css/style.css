@@ -234,6 +234,11 @@ li{
 }
 .featured_block img{
     margin-bottom: 35px;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+.featured_block img:hover{
+    border: 1px solid #000;
 }
 .featured_block_name{
     font-size: 20px;
@@ -293,6 +298,11 @@ li{
 }
 .product_block img{
     margin-bottom: 35px;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+.product_block img:hover{
+    border: 1px solid #000;
 }
 .product_block:last-child{
     margin-right: 0px;
@@ -373,6 +383,11 @@ li{
 }
 .stories_block img{
     margin-bottom: 29.19px;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+.stories_block img:hover{
+    border: 1px solid #000;
 }
 .stories_block{
     margin-right: 20px;
